@@ -18,6 +18,9 @@ public class Person{
     public String setSurname(String newSurname){
         return this.firstName = newSurname;
     }
+    public int getAge(){
+        
+    }
 
 
 }
