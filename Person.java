@@ -24,6 +24,9 @@ public class Person{
     public String getFullName(){
         return firstName+" "+surname;
     }
+    public String toString(){
+        return firstName;
+    }
    
 
 }
