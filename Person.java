@@ -19,8 +19,11 @@ public class Person{
         return this.firstName = newSurname;
     }
     public int getAge(){
-        
-    }
 
+    }
+    public String getFullName(){
+        return firstName+" "+surname;
+    }
+   
 
 }
